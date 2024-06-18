@@ -1,7 +1,8 @@
 import streamlit as st 
 from streamlit_option_menu import option_menu
 from streamlit_player import st_player
-
+from streamlit_timeline import timeline
+import json
 
 selected = option_menu(
     menu_title=None,
@@ -38,6 +39,14 @@ if selected == "Home":
         st.image('Nachi1.jpeg', width=350)
     
     st.markdown("""---""")
+    
+    st.markdown(' ## My Career timeline')
+    with open('timeline.json', "r") as f: 
+       data = json.load(f)        
+    timeline(data, height=500)
+    
+    st.markdown("""---""")
+
 
     col5, col6 = st.columns(2)
     with col5:

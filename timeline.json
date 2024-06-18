@@ -1,0 +1,58 @@
+{
+  "events" : 
+  [
+    {"start_date" : 
+      {
+      "year" : "2020", 
+      "month" : "8",
+      "media" : { "url" : "https://images.app.goo.gl/9gp4yfTbLXQb2uCa7", "credit" : "Cincinnnati" },
+      "text": {"headline": "BS in Computer Science", "text": "<p>This was the time I started off my college journey, majoring in Computer Science with a minor in Software Engineering<p>"}
+      }
+    },
+
+    {"start_date" : 
+      {
+      "year" : "2021", 
+      "month" : "4",
+      "media" : { "url" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uc.edu%2Fcontent%2Fdam%2Fdesigns%2Flogos%2Fsocial.jpeg&f=1&nofb=1&ipt=99b50458d4559e208f058baad6fae50b024e6b25403536fbcabf0fe97c2296af&ipo=images", "credit" : "Cincinnnati" },
+      "text": {"headline": "First Paid Job", "text": "<p> I started my professional jounrey with my first padi job as a Student Orientation Leader for the University Of Cincinnati<p>"}
+      }
+    },
+
+    {"start_date" : 
+      {
+      "year" : "2022", 
+      "month" : "1",
+      "media" : { "url" : "hhttps://images.app.goo.gl/VnGHnetiH6P26q7dA" },
+      "text": {"headline": "IOS app dev co-op", "text": "<p> My first co-op with a company based in Oak Brook, Illinois, where I worked a full-stack IOS app developed co-op. THe most exciting part of this co-op was demoing our final project to the CEO and the stakeholders.<p>"}
+      }
+    },
+     {"start_date" : 
+      {
+      "year" : "2022", 
+      "month" : "8",
+      "media" : { "url" : "https://images.app.goo.gl/Nj9LVNabw1ByoVWU9" },
+      "text": {"headline": "Data Analyst co-op co-op", "text": "<p> Started my second co-op with Delta Air Lines as a Data Analyst co-op with the Supply Chain department of Techincal Operations.<p>"}
+      }
+    },
+      {"start_date" : 
+      {
+      "year" : "2023", 
+      "month" : "5",
+      "media" : { "url" : "https://images.app.goo.gl/Nj9LVNabw1ByoVWU9" },
+      "text": {"headline": "Data Science co-op co-op", "text": "<p> Started my third co-op with same company by internally transferring to a Data science focused team in Peredective Technology department of Technical Operations.<p>"}
+      }
+    },
+  {"start_date" : 
+      {
+      "year" : "2024", 
+      "month" : "5",
+      "media" : { "url" : "https://images.app.goo.gl/Nj9LVNabw1ByoVWU9" },
+      "text": {"headline": "Data Science co-op co-op", "text": "<p> Started my fourth co-op with same company and Data science focused team in Peredective Technology department of Technical Operations.<p>"}
+      }
+    }
+    
+    
+    
+  ]
+}
