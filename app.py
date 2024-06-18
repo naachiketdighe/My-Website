@@ -18,7 +18,7 @@ selected = option_menu(
 
 if selected == "Home":
     col1, col2 = st.columns(2)
-
+    pdffile = open('Nachiket-Dighe-Resume.pdf', 'rb')
     with col1:
         st.image('Nachi.jpeg', width=350)
     with col2:
@@ -26,8 +26,7 @@ if selected == "Home":
         st.markdown(' #### *University Of Cincinnati* ' )
         st.markdown(' ##### College of Engineering and Applied Sciences')
         st.markdown(' #####  Computer Science and Software Engineering')
-        st.markdown('<style>div.stButton > button:first-child {background-color: blue; color: white; text-align: center;}</style>', unsafe_allow_html=True)
-        st.markdown('<div class="stButton"><a href="https://pink-meade-32.tiiny.site/" target="_blank">My Resume</a></div>', unsafe_allow_html=True)
+        st.download_button('My Resume', pdffile, file_name='Nachiket-Dighe-Resume.pdf', mime='pdf')
     st.markdown("""---""")
     col3, col4 = st.columns(2)
     with col3:
@@ -54,8 +53,7 @@ if selected == "Home":
 
 if selected == "Year-in-review":
     st_player("https://youtu.be/CmSKVW1v0xM")
-if selected == "Honors experiences":
-    
+if selected == "Honors experiences":    
     st.markdown("# Honors experiences")
     col5, col6 = st.columns(2)
     with col5:
@@ -64,3 +62,14 @@ if selected == "Honors experiences":
         st.markdown('## Student Orientation Leader')
         st.markdown(' 2021')
         st.markdown(' - Represent the University by providing campus tours, responding to inquiries via email, and assisting incoming first-year students.')
+    
+    st.markdown("""---""")
+
+    col7, col8 = st.columns(2)
+    with col7:
+        st.markdown('## Honors Belong Coordinator')
+        st.markdown(' 2023')
+        st.markdown(' - Foster awareness and inclusivity among Honors students by interactive educational programming.') 
+    with col8:
+        st.image('Nachi5.jpeg')
+        
