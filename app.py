@@ -124,8 +124,8 @@ if selected == "Home":
         st.markdown(' - Honors Peer Leader ')
 
 elif selected == "Year-in-review":
-    st.markdown("# Year-in-review")
-    st.image('Nachi6.jpg')
+    st.markdown("<div style='text-align: center; font-size: 32px;'>Year-in-review</div>", unsafe_allow_html=True)    
+    st.image('Nachi6.jpeg')
     filename = 'text.txt'
 
 # Read the file contents
